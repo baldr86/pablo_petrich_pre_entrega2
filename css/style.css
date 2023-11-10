@@ -1,0 +1,178 @@
+
+/*Estilos globales */
+
+@font-face {
+    font-family: 'cinematografica';
+    src: url(../font/Cinematografica-Thin-trial.ttf);
+}
+
+/*.top_bar {
+    position: sticky;
+    top: 0;
+}
+.menu_bar {
+    width: 100%;
+    list-style: none;
+    padding: 20px;
+    background-color: rgba(255, 177, 33);
+    justify-content: center;
+
+    
+}*/
+
+.menu_item {
+    margin-left: 15px;
+    display: inline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.titulo_biografia, .titulo_tienda, .titulo_obra, .titulo_nosotros {
+
+    color: #798da3;
+    font-family: 'cinematografica';
+    font-size: 100px;
+}
+
+/* Index */
+
+.portada {
+    width: 100%;
+}
+
+.titulo_portada {
+
+    color: orange;
+    font-family: 'cinematografica';
+    font-size: 15rem;
+}
+
+.texto_portada {
+    width: 100%;
+    margin-left: 10px;
+
+}
+.foto_portada {
+    width: 70%;
+    vertical-align: top;
+    padding-top: 4rem;
+ 
+}
+
+h1, h2, p {
+    color: #798da3;
+
+}
+
+h2 {
+    font-family: 'cinematografica';
+    font-size: 60px;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+}
+
+/* Estilos index */
+
+.resumen, .tecnicas, .reconocimientos {
+    justify-content: center;
+    text-align: center;
+    padding-top: 1.6rem;
+}
+
+.premios {
+    text-align: left;
+    margin-left: 20px;
+}
+
+/* Estilos biografia */
+
+
+.fotos_biografia {
+    width: 200px;
+    display: inline-block;
+}
+.resumen_biografia {
+    width: 70%;
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 30px;
+}
+
+/* Estilos tienda */
+
+
+.DVDcover {
+    width: 300px;
+    display: inline-block;
+}
+.titulo_DVD {
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+}
+
+/* Estilos Obra */
+.cover_pelicula {
+    width: 300px;
+    display: inline-block;
+}
+.sinopsis {
+    width: 70%;
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 30px;
+}
+
+/* Estilos Nosotros */
+.foto_nosotros {
+    width: 60%;
+    display: inline-block;
+}
+.acerca_nosotros {
+  padding-left: 3rem;
+  text-align: justify;
+ 
+    vertical-align: top;
+    font-size: 120%;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: rgba(250, 222, 179, 0.986) !important;
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      text-align: center;
+      font-size: 5rem !important;
+    }
+
+    body {
+        padding: 20px;
+    }
+
+
+    .foto_portada_contenedor {
+        display: flex;
+        justify-content: center;
+    }
+
+    .foto_portada{
+        width: 50% ;
+        padding-top: 1rem;
+    }
+
+    .video_perspectiva {
+        width:auto;
+        height:auto;
+  }
+    .acerca_nosotros {
+         padding: 2rem;
+    }
+}

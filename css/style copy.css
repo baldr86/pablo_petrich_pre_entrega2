@@ -1,0 +1,61 @@
+/* reset */
+
+@font-face {
+    font-family: 'Happy-Dance';
+    src: url(../font/Happy-Dance.ttf);
+}
+
+
+
+.menu_bar {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: rgba(255, 177, 33, 0.623);
+    justify-content: center;
+}
+
+.menu_item {
+    margin-left: 15px;
+}
+.titulo_portada {
+
+    color: red;
+    font-family: 'Happy-Dance';
+    font-size: 60px;
+}
+
+.portada {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.texto_portada {
+    width: 40%;
+    margin-left: 10px;
+}
+.foto_portada {
+    width: 30%;
+    margin-right: 10px;
+}
+
+.contenedor-padre {
+    height: 550px;
+    background-color: #03CEA4;
+
+}
+
+.contenedor-hijo {
+    font-weight: 600;
+    height: 100px;
+    width: 250px;
+    background-color: white;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+
+}
